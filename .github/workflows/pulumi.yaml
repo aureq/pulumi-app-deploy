@@ -1,8 +1,8 @@
 name: Pulumi
 on:
-  pull_request:
+  pull_request_target:
     branches:
-      - 'feature-**'
+      - main
   push:
     branches:
       - main
