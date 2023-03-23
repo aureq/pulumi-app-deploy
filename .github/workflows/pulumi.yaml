@@ -1,11 +1,5 @@
 name: Pulumi
-on:
-  pull_request_target:
-    branches:
-      - main
-  push:
-    branches:
-      - main
+on: [push]
 
 permissions: write-all
 
