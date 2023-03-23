@@ -1,7 +1,7 @@
 name: Pulumi
 on: [push]
 
-permissions: write-all
+# permissions: write-all
 
 jobs:
   up:
