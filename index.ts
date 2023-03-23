@@ -4,7 +4,7 @@ import * as awsx from "@pulumi/awsx";
 
 // Create an AWS resource (S3 Bucket)
 const bucket = new aws.s3.Bucket("my-bucket-feat-2-1", {
-    bucket: "some-random-name-0002"
+    bucket: "some-random-name-0003"
 });
 
 // Export the name of the bucket
