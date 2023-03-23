@@ -23,5 +23,6 @@ jobs:
         with:
           command: preview
           stack-name: menfin/dev
+          github-token: ${{ github.token }}
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
