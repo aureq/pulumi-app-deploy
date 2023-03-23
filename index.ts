@@ -3,8 +3,8 @@ import * as aws from "@pulumi/aws";
 import * as awsx from "@pulumi/awsx";
 
 // Create an AWS resource (S3 Bucket)
-const bucket = new aws.s3.Bucket("my-bucket-feat-2-0", {
-    bucket: "some-random-name-12313123412"
+const bucket = new aws.s3.Bucket("my-bucket-feat-2-1", {
+    bucket: "some-random-name-0001"
 });
 
 // Export the name of the bucket
